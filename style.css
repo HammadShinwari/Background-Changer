@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: #fff;
+    padding-top: 15vw;
+}
+.buttons{
+    display: flex;
+    padding-top: 3vw;
+    justify-content: center;
+}
+.button-1{
+    padding: 0 15px 0 0;
+}
+.button-2{
+    padding: 0 15px 0 0;
+}
+.button-3{
+    padding: 0 15px 0 0;
+}
+.button-4{
+    padding: 0 15px 0 0;
+}
+.red{
+    background-color: red;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2vw;
+    font-weight: 600;
+    cursor: pointer;
+}
+.red:hover{
+    box-shadow: 3px 2px 5px red;
+}
+.green{
+    background-color: green;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2vw;
+    font-weight: 600;
+    cursor: pointer;
+}
+.green:hover{
+    box-shadow: 3px 2px 5px green;
+}
+.blue{
+    background-color: blue;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2vw;
+    font-weight: 600;
+    cursor: pointer;
+}
+.blue:hover{
+    box-shadow: 3px 2px 5px blue;
+}
+.purple{
+    background-color: purple;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2vw;
+    font-weight: 600;
+    cursor: pointer;
+}
+.purple:hover{
+    box-shadow: 3px 2px 5px purple;
+}
+.gray{
+    background-color: gray;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2vw;
+    font-weight: 600;
+    cursor: pointer;
+}
+.gray:hover{
+    box-shadow: 3px 2px 5px gray;
+}
+@media (max-width: 770px) {
+    .button-1{
+        padding-right: 10px;
+    }
+    .button-2{
+        padding-right: 10px;
+    }
+    .button-3{
+        padding-right: 10px;
+    }
+    .button-4{
+        padding-right: 10px;
+    }
+    .btn{
+        font-size: 1.5vw;
+    }
+}
